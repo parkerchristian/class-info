@@ -6,6 +6,7 @@ multiple filters to be applied.
 
 ## Key Concepts
 
+* Refactoring - names and single-responsibility.
 * JavaScript Logic
     * "truthy" and "false"
     * Logical Operators `&&` and `||` and `!`
