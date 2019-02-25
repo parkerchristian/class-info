@@ -12,8 +12,8 @@ multiple filters to be applied.
 * Array `.filter` Method
 * Filtered Properties Recipe
 * Named Exports and Imports
-* Calling Callback Functions
 * Component Module Pattern
+* Calling Callback Functions
 
 ### `truthy` and `falsey`
 
