@@ -17,6 +17,10 @@ Use JavaScript templates to render list of data dynamically
 1. Mob Build PhotoGallery
 1. Solo Build PhotoGallery
 
+## Lab Build
+
+Repo: `photo-gallery`
+
 ## Key Concepts
 
 * Template Literals
