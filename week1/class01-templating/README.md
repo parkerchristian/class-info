@@ -3,12 +3,26 @@ Class 01: JavaScript Templates
 
 Use JavaScript templates to render list of data dynamically
 
+## Agenda
+
+1. Kickoff and Class Expectations
+1. Code Cooking
+    1. Template Literals
+    1. `<template>` Element
+    1. Arrow Function
+    1. `.forEach`
+1. Live Demo PhotoGallery
+    1. DDD
+    1. Template Functions
+1. Mob Build PhotoGallery
+1. Solo Build PhotoGallery
+
 ## Key Concepts
 
 * Template Literals
 * `<template>` Element
-* Template Function Recipe
 * Array `.forEach` method
+* Template Function Recipe
 * Design-Driven Development Recipe
 
 ### JavaScript Template Literals
