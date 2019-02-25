@@ -5,6 +5,12 @@ Use JavaScript templates to render list of data dynamically
 
 ## Key Concepts
 
+* Template Literals
+* `<template>` Element
+* Template Function Recipe
+* Array `.forEach` method
+* Design-Driven Development Recipe
+
 ### JavaScript Template Literals
 
 Using templates for dynamic html allows developers to simultaneously indicate what data should be place and where it should be place in the html.
@@ -59,32 +65,6 @@ images.forEach(function(image) {
     const dom = makeImageTemplate(image);
     list.appendChild(dom);
 });
-```
-
-### Named Exports and Imports
-
-Specify more than one thing that should be exported from a module. Requires 
-a specific syntax to import. Can be mixed with `export default`
-
-```js
-// module-one.js:
-export function makeTemplate() {
-    // ...
-}
-
-export default function loadImages(images) {
-    //...
-}
-```
-
-```js
-// module-two.js:
-import { makeTemplate } from './module-one.js';
-```
-
-```js
-// module-three.js:
-import loadImages from './module-one.js';
 ```
 
 ### Design-Driven Development
