@@ -8,4 +8,4 @@ Agenda
 1. Resources
     1. [`class-info`](https://github.com/alchemy-web-bootcamp-winter-2019/class-info)
     1. [`bc2-configs`](https://github.com/alchemy-web-bootcamp-winter-2019/bc2-configs)
-1. Curriculum Overview
+1. [Curriculum Overview](https://canvas.instructure.com/courses/1547362/modules)
