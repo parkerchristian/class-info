@@ -4,6 +4,20 @@ Class 02: Filtering Data
 Create UIs that allow the user to filter a list of data. Implemented using the `.filter` array method and following a common pattern for allowing
 multiple filters to be applied.
 
+## Agenda
+
+1. Career Service Kickoff and Expectations
+1. Code Cooking
+    1. JavaScript Logic
+    1. `.filter`
+    1. Named Exports and Imports
+    1. Calling callback functions
+1. Live Demo PhotoGallery
+    1. Filtered Properties Recipe
+    1. Component Module Pattern
+1. Mob Build PhotoGallery
+1. Solo Build PhotoGallery
+
 ## Key Concepts
 
 * Refactoring - names and single-responsibility.
@@ -11,10 +25,10 @@ multiple filters to be applied.
     * "truthy" and "false"
     * Logical Operators `&&` and `||` and `!`
 * Array `.filter` Method
-* Filtered Properties Recipe
 * Named Exports and Imports
-* Component Module Pattern
 * Calling Callback Functions
+* Filtered Properties Recipe
+* Component Module Pattern
 
 ### `truthy` and `falsey`
 
