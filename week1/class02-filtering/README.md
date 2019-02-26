@@ -16,8 +16,12 @@ multiple filters to be applied.
 1. Live Demo PhotoGallery
     1. Filtered Properties Recipe
     1. Component Module Pattern
-1. Mob Build PhotoGallery
-1. Solo Build PhotoGallery
+1. Mob Build Photo Gallery
+1. Solo Build Photo Gallery
+
+## Lab
+
+repo: `filtered-photo-gallery`
 
 ## Key Concepts
 
