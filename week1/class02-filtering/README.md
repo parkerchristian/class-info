@@ -80,7 +80,7 @@ When building filters that apply to an arbitrary number of properties, use the f
 1. Test each filter property and assigned to `variable`, return the 
 logical "and" of all filters:
     ```js
-    function filterImages(filters) {
+    function filterImages(images, filter) {
         const filteredImages = images.filter(function(image) {
             const hasKeyword = !filter.keyword || item.keyword === filter.keyword;
 
