@@ -7,6 +7,7 @@ multiple filters to be applied.
 ## Agenda
 
 1. Career Service Kickoff and Expectations
+1. Questions and Review
 1. Code Cooking
     1. JavaScript Logic
     1. `.filter`
