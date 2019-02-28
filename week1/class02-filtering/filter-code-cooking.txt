@@ -1,30 +1,5 @@
 // TERNARY and truthy/falsey
 
-if(1) {
-    return '1 is truthy!';
-} else {
-    return 'falsey!';
-}
-
-if(0) {
-    return '0 is truthy!';
-} else {
-    return 'falsey!';
-}
-
-if('a string') {
-    return 'a string is truthy!';
-} else {
-    return 'falsey!';
-}
-
-if('') {
-    return 'an empty string is truthy';
-} else {
-    return 'falsey!';
-}
-
----------------------
 
 true ? 'truth' : lies;
 
