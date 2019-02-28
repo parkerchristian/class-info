@@ -76,9 +76,6 @@ export default function pageArray(array, pagingOptions) {
 The UI often needs to show the Total Pages
 
 ```js
-const perPage = 20;
-const totalCount = 93;
-
 const totalPages = Math.ceil(totalCount / perPage);
 ```
 
