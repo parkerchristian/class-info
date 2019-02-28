@@ -36,3 +36,23 @@ listOStuff.forEach((item) => { console.log(item); });
 
 listOStuff.forEach(item => console.log(item));
 
+// template literal
+
+let greeting = 'hello';
+
+let template = `${greeting} Robert!`;
+
+template; 
+// notice return output
+
+----------------
+
+greeting = 'Well met';
+let name = 'Bob';
+
+template = `${greeting} {name}`;
+
+template;
+
+--------------
+
