@@ -1,4 +1,4 @@
-Class 02: Sorting Data
+Class 03: Sorting Data
 ===
 
 Create a sortable table of contacts, implemented using the `.sort` array method and following a common pattern for sorting dynamically based on a chosen field.
@@ -10,7 +10,7 @@ Create a sortable table of contacts, implemented using the `.sort` array method 
     1. ternary expression
     1. `.toLocaleString()`
     1. `.sort`
-1. Live Demo PhotoGallery
+1. Live Demo Sortable Contacts
     1. Sort on field name pattern
 1. Mob Build Photo Gallery
 1. Solo Build Photo Gallery

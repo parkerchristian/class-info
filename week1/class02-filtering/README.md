@@ -13,7 +13,7 @@ multiple filters to be applied.
     1. `.filter`
     1. Named Exports and Imports
     1. Calling callback functions
-1. Live Demo PhotoGallery
+1. Live Demo Filterable Photo Gallery
     1. Filtered Properties Recipe
     1. Component Module Pattern
 1. Mob Build Photo Gallery
