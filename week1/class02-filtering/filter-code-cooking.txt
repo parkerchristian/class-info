@@ -1,0 +1,92 @@
+// TERNARY and truthy/falsey
+
+
+true ? 'truth' : lies;
+
+---------------------
+
+1 ? 'truthy' : 'falsey';
+
+---------------------
+
+'is a string' ? 'truthy' : 'falsey';
+
+----------------------
+
+'' ? 'truthy' : 'falsey';
+
+----------------------
+
+[] ? 'truthy' : 'falsey';
+
+----------------------
+
+const emptyObject = {};
+
+emptyObject ? 'truthy' : 'falsey';
+
+_______________________
+
+const number = 1;
+
+number > 2 ? 'bigger' : 'smaller';
+
+// .FILTER
+
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.filter(number => number > 2);
+
+numbers.filter(number => number === 4);
+
+numbers.filter(number => number % 2 === 0);
+
+----------------------
+
+const words ['barf', 'cat', 'toes', 'bell'];
+
+words.filter(word => word.length > 3);
+
+words.filter(word => word[0] === 'b');
+
+words.filter(word => word.includes('a'));
+
+words.filter(word => word.includes('e'));
+
+------------------------
+
+const phrasebook = [
+    {
+        greeting: "Grüss dich",
+        language: 'German'
+    },
+    {
+        greeting: "Dia duit",
+        language: 'Irish',
+        response: "Dia s'mura dhit"
+    },
+    {
+        greeting: 'Marhaba',
+        language: 'Arabic',
+        response: 'Marhabteen'
+    },
+    
+];
+
+phrasebook.filter(phrase => phrase.response);
+
+phrasebook.filter(phrase => phrase.greeting.length > 7);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+
+
+function hello(greeting) {
+    return greeting;
+}
+
+hello('friend!');
+
+const goodBye = function(farewell) {
+    return farewell;
+}
+
+goodBye('see you later!');
+
+const exclaim = (exclamation) => { return exclamation; };
+
+exclaim('wow!');
+
+const iCantBelieve = (itIsOrIsnt) => { return itIsOrIsnt + ' butter.'; };
+
+iCantBelieve('it is not');
+
+const howLittleEffort = doesItRequire => doesItRequire + ' to write a function.';
+
+howLittleEffort('if it is only one line it does not take much');
+
+// forEach
+
+const listOStuff = [ 'hello', 'goodbye', 'cats', 'dogs'];
+
+listOStuff.forEach(function(item) {
+    console.log(item);
+});
+
+listOStuff.forEach((item) => { console.log(item); });
+
+listOStuff.forEach(item => console.log(item));
+
+// template literal
+
+let greeting = 'hello';
+
+let template = `${greeting} Robert!`;
+
+template; 
+// notice return output
+
+----------------
+
+greeting = 'Well met';
+let name = 'Bob';
+
+template = `${greeting} {name}`;
+
+template;
+
+--------------
+

@@ -1,0 +1,60 @@
+.SLICE
+
+const listOfNumbers = [1, 2, 3, 4, 5, 6];
+
+
+listOfNumbers.slice(0);
+
+listOfNumbers.slice(1);
+
+listOfNumbers.slice(2);
+
+listOfNumbers.slice(3);
+
+listOfNumbers.slice(4);
+
+listOfNumbers.slice(5);
+
+listOfNumbers.slice(6);
+
+listOfNumbers.slice();
+
+---------------------------
+
+listOfNumbers.slice(-1);
+
+listOfNumbers.slice(-2);
+
+listOfNumbers.slice(-3);
+
+listOfNumbers.slice(-4);
+
+listOfNumbers.slice(-5);
+
+listOfNumbers.slice(-6);
+
+----------------------------
+
+listOfNumbers.slice(0, 1);
+
+listOfNumbers.slice(1, 2);
+
+listOfNumbers.slice(2, 5);
+
+listOfNumbers.slice(2, -1);
+
+----------------------------
+
+const animals = ["cow", "frog", "dog", "gerbil"];
+
+animals.slice(1, 3);
+
+----------------------------
+
+const word = "homeowner";
+
+word.slice(2, 6);
+
+word.slice(2);
+
+
