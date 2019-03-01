@@ -1,5 +1,32 @@
 // TERNARY and truthy/falsey
 
+// Have those you're cooking for build these things in their console before starting
+
+const phrasebook = [
+    {
+        greeting: "Grüss dich",
+        language: 'German'
+    },
+    {
+        greeting: "Dia duit",
+        language: 'Irish',
+        response: "Dia s'mura dhit"
+    },
+    {
+        greeting: 'Marhaba',
+        language: 'Arabic',
+        response: 'Marhabteen'
+    },
+    
+];
+
+const words ['barf', 'cat', 'toes', 'bell'];
+
+const numbers = [1, 2, 3, 4, 5];
+
+// ok now they're ready
+
+---------------------
 
 true ? 'truth' : lies;
 
@@ -33,7 +60,7 @@ number > 2 ? 'bigger' : 'smaller';
 
 // .FILTER
 
-const numbers = [1, 2, 3, 4, 5];
+numbers;
 
 numbers.filter(number => number > 2);
 
@@ -43,7 +70,7 @@ numbers.filter(number => number % 2 === 0);
 
 ----------------------
 
-const words ['barf', 'cat', 'toes', 'bell'];
+words;
 
 words.filter(word => word.length > 3);
 
@@ -55,23 +82,7 @@ words.filter(word => word.includes('e'));
 
 ------------------------
 
-const phrasebook = [
-    {
-        greeting: "Grüss dich",
-        language: 'German'
-    },
-    {
-        greeting: "Dia duit",
-        language: 'Irish',
-        response: "Dia s'mura dhit"
-    },
-    {
-        greeting: 'Marhaba',
-        language: 'Arabic',
-        response: 'Marhabteen'
-    },
-    
-];
+phrasebook;
 
 phrasebook.filter(phrase => phrase.response);
 
