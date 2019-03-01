@@ -82,9 +82,9 @@ logical "and" of all filters:
     ```js
     function filterImages(images, filter) {
         const filteredImages = images.filter(function(image) {
-            const hasKeyword = !filter.keyword || item.keyword === filter.keyword;
+            const hasKeyword = !filter.keyword || image.keyword === filter.keyword;
 
-            const hasHorns = !filter.horns || item.horns >= filter.horns;
+            const hasHorns = !filter.horns || image.horns >= filter.horns;
 
             return hasKeyword && hasHorns;
         });
